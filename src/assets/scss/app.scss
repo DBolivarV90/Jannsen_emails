@@ -1,0 +1,76 @@
+@import 'settings';
+@import 'foundation-emails';
+
+@import 'template/template';
+
+
+.bold {
+  font-weight: bold;
+}
+
+.pad-top {
+  padding-top: $global-padding;
+}
+
+
+.menu.rating {
+  max-width: 300px;
+  width: 100%;
+}
+
+.no-space {
+  padding: 0px !important;
+  margin: 0px !important;
+}
+
+.star {
+  width: 20px;
+  margin: auto;
+}
+
+.cell {
+  border: 1px solid $medium-gray;
+  padding: 3px 0px!important;
+  width: 100px;
+}
+
+.menu-item.cell.float-center {
+  width: 80px;
+}
+
+
+.message {
+  background-color: $blue_janssen;
+  padding: 20px !important;
+}
+
+.white-color {
+  color: $white;
+}
+
+.janssen-blue-color {
+  color: $blue_janssen;
+}
+
+.confidentiality {
+  background: rgb(223, 223, 223);
+
+  &__title {
+    font-size: 12px;
+    text-align: center;
+    font-weight: bold;
+  }
+
+  &__paragraph {
+    font-size: 10px;
+
+    & > a {
+      color: $blue_janssen;
+    }
+  }
+
+  &__logo {
+    width: 330px;
+  }
+}
+

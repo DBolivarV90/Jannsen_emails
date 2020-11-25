@@ -1,0 +1,28 @@
+<container>
+  {{> introduction 
+      img-url="https://monodual.com/2019/wp-content/uploads/2020/10/imagePostEventCME.jpg"
+      greeting="Estimado (a) {{accTitle}} {{accFname}} {{accLname}},"
+      paragraph="Recientemente ha asistido al evento [Event Name]."
+      paragraph1="Le agradeceríamos que responda a esta encuesta de satisfacción para poder adaptar mejor nuestro servicio a sus necesidades."
+      paragraph2="Por favor, responda con sinceridad, no le llevará más de un minuto."
+  }}
+
+  {{>indication
+    paragraph="Indique cuál es su grado de satisfacción general respecto a su participación en el evento [Event Name] [Event Start Date]"
+  }}
+
+  {{>rating
+    star1="https://survey2.medallia.eu/?jnj-CO-event-cme&codsId=PCO1234&DevCycle=1&_score=1"
+    star2="https://survey2.medallia.eu/?jnj-CO-event-cme&codsId=PCO1234&DevCycle=1&_score=2"
+    star3="https://survey2.medallia.eu/?jnj-CO-event-cme&codsId=PCO1234&DevCycle=1&_score=3"
+    star4="https://survey2.medallia.eu/?jnj-CO-event-cme&codsId=PCO1234&DevCycle=1&_score=4"
+    star5="https://survey2.medallia.eu/?jnj-CO-event-cme&codsId=PCO1234&DevCycle=1&_score=5"
+
+  }}
+
+  {{>thanks
+      from="Departamento Médico de Janssen"
+  }}
+
+  {{>footer}}
+</container>
